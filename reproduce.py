@@ -1,17 +1,3 @@
-# 玩第100, 200, ..., 1300局的时候
-# 按人，记录skill
-# loyalty: 过去100？n？场 最多人次数/总组队次数
-# TOB：总组队次数/总次数
-
-# 通过game表，可以获得team_game_set
-
-# 扫描play表，生成字典{team_game_id_team_id: player_id_set}；（在指定总局数时）生成字典{player_id: game_id_set_team_id}
-
-# 对于每个player，（记得过滤总局数不足的）
-# - 局数=指定超参
-# - 团体局=team_game_set ∩ player_game_set (如果len<4，排除)
-# - 最铁队友局数=扫描团体局，生成字典{teammate_id: number}；输出最大的number
-
 import pickle
 import numpy as np
 import statsmodels.api as sm
@@ -95,7 +81,7 @@ def reg_m(y, x):
     results = sm.OLS(y, X).fit()
     return results
 
-N = 200
+N = 100
 
 team_player_dict, player_team_dict, player_game_dict, player_skill_dict = scan_play_table("play.csv", N)
 pickle.dump((team_player_dict, player_team_dict, player_game_dict), open("100.pkl", "wb"))
