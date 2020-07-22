@@ -8,5 +8,6 @@ _code_ &amp; _data_ &amp; _more_ for my MSc final project
 - code: [here](./reproduce.py)
   - current version: please set hyper-parameter `N` (e.g., 100 or 200) which denotes the number of games considered per player
   - the code will return the digest stats of the multivariable linear regression. For example, when `N = 100`, you will get
+  
   ![n=100](./figs/reproduce_n_100.jpg)
   
