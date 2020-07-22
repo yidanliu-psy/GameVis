@@ -2,7 +2,7 @@
 _code_ &amp; _data_ &amp; _more_ for my MSc final project
 
 ## Reproducing [the paper results of Landfried et al.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0211014)
-> __The reproduction is successful!__ :muscle:
+
 - data: [two tables](https://drive.google.com/drive/folders/13LUQjrzp11D7h1SkU5EX7J2cN78mY6sz?usp=sharing) 
   - respectively selected columns of `play` and `game`; dumped from the original database)
 - code: [here](./reproduce.py)
