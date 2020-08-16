@@ -1,0 +1,110 @@
+Doubles                             OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.039
+Model:                            OLS   Adj. R-squared:                  0.039
+Method:                 Least Squares   F-statistic:                 2.357e+04
+Date:                Sun, 16 Aug 2020   Prob (F-statistic):               0.00
+Time:                        22:35:03   Log-Likelihood:            -1.2136e+06
+No. Observations:             1724116   AIC:                         2.427e+06
+Df Residuals:                 1724112   BIC:                         2.427e+06
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+x1             0.0221      0.000    124.553      0.000       0.022       0.022
+x2            -0.0056      0.000    -33.337      0.000      -0.006      -0.005
+x3            -0.0361      0.000   -214.619      0.000      -0.036      -0.036
+const          0.6058      0.006     93.316      0.000       0.593       0.619
+==============================================================================
+Omnibus:                  1030183.465   Durbin-Watson:                   1.699
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):        331319582.555
+Skew:                          -1.683   Prob(JB):                         0.00
+Kurtosis:                      70.828   Cond. No.                         916.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Triples                             OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.041
+Model:                            OLS   Adj. R-squared:                  0.041
+Method:                 Least Squares   F-statistic:                 1.725e+04
+Date:                Sun, 16 Aug 2020   Prob (F-statistic):               0.00
+Time:                        22:35:04   Log-Likelihood:            -7.4059e+05
+No. Observations:             1217904   AIC:                         1.481e+06
+Df Residuals:                 1217900   BIC:                         1.481e+06
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+x1             0.0130      0.000     75.804      0.000       0.013       0.013
+x2            -0.0022      0.000    -11.051      0.000      -0.003      -0.002
+x3            -0.0303      0.000   -171.281      0.000      -0.031      -0.030
+const          0.6034      0.007     89.469      0.000       0.590       0.617
+==============================================================================
+Omnibus:                   866295.378   Durbin-Watson:                   1.550
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):        296703957.219
+Skew:                          -2.303   Prob(JB):                         0.00
+Kurtosis:                      79.326   Cond. No.                         870.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Quadruples                             OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.018
+Model:                            OLS   Adj. R-squared:                  0.018
+Method:                 Least Squares   F-statistic:                     4113.
+Date:                Sun, 16 Aug 2020   Prob (F-statistic):               0.00
+Time:                        22:35:05   Log-Likelihood:                -93545.
+No. Observations:              666224   AIC:                         1.871e+05
+Df Residuals:                  666220   BIC:                         1.871e+05
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+x1             0.0055      0.000     33.177      0.000       0.005       0.006
+x2             0.0017      0.000      7.839      0.000       0.001       0.002
+x3            -0.0152      0.000    -86.709      0.000      -0.016      -0.015
+const          0.2530      0.007     36.339      0.000       0.239       0.267
+==============================================================================
+Omnibus:                   716905.857   Durbin-Watson:                   1.609
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):       1109156594.278
+Skew:                          -4.432   Prob(JB):                         0.00
+Kurtosis:                     202.694   Cond. No.                     1.08e+03
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.08e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+all                             OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.035
+Model:                            OLS   Adj. R-squared:                  0.035
+Method:                 Least Squares   F-statistic:                 4.390e+04
+Date:                Sun, 16 Aug 2020   Prob (F-statistic):               0.00
+Time:                        22:35:08   Log-Likelihood:            -2.1797e+06
+No. Observations:             3608244   AIC:                         4.359e+06
+Df Residuals:                 3608240   BIC:                         4.359e+06
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+x1             0.0150      0.000    141.125      0.000       0.015       0.015
+x2            -0.0030      0.000    -26.333      0.000      -0.003      -0.003
+x3            -0.0298      0.000   -283.066      0.000      -0.030      -0.030
+const          0.5498      0.004    134.913      0.000       0.542       0.558
+==============================================================================
+Omnibus:                  2432347.055   Durbin-Watson:                   1.640
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):        981033953.616
+Skew:                          -2.047   Prob(JB):                         0.00
+Kurtosis:                      83.675   Cond. No.                         916.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
