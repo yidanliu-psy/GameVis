@@ -1,7 +1,5 @@
 # final project
-code and data for my MSc final project
-
-`the report is coming soooooon!`
+code and data for my MSc final project. `the report is coming soooooon!`
 
 ## main takeaway information:
  - it's a large-scale analysis on the *Conquer Club* players' skill development
@@ -20,30 +18,15 @@ proprocessing the data is rather computational expensive. therefore, please feel
  - `reproduce\` code for reproducing the paper of [Landfried et al.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0211014)
  - `preprocessing.py` code which outputs three tables in `data\`
  - `regression.py` **robust (with M-estimator) multivariate polyfit**
-  - *highlight: the calculation of R^2* 
+   - *highlight: the calculation of R^2* 
  - `visualisation\` code which generates the following figures
   
 ## visualised results
-reproduced faithfulness effect in [Landfried et al.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0211014)
-
-![fig2](./figs/2.png)
-
-frequency density of variables
-| I | T/I | O/I | Δ |
+|I | T/I | O/I | Δ |
 |---|---|---|---|
 |  ![fig3a](./figs/3a.png) | ![fig3b](./figs/3b.png)  | ![fig3c](./figs/3c.png)  |  ![fig3d](./figs/3d.png) |
+|reproduced faithfulness effect in [Landfried et al.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0211014)|effect of players pregame skill on their changes in skill |effect of opponents skill on players changes in skill |interaction of teammates skill and opponents skill on skill increment|
+|![fig2](./figs/2.png)|![fig4](./figs/4.png)|![fig5](./figs/5.png)|![fig6](./figs/6.png)|
 
-effect of players pregame skill on their changes in skill 
-
-![fig4](./figs/4.png)
-
-effect of opponents skill on players changes in skill 
-
-![fig5](./figs/5.png)
-
-interaction of teammates skill and opponents skill on skill increment
-
-![fig6](./figs/6.png)
-
-`if you have any question, just post an issue~`
+> if you have any question, just post an issue
   
