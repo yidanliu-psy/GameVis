@@ -1,5 +1,5 @@
 # final project
-code and data for my MSc final project. *the report see https://psyarxiv.com/xgw7a*
+code and data for my MSc final project. *See the report at https://doi.org/10.31234/osf.io/xgw7a*
 
 ## TL;DR
  - it's a large-scale analysis on the *Conquer Club* players' skill development
